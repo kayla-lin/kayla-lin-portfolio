@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/kayla-lin-portfolio/static/js/main.1c9846ce.js",
+    "main.js": "/kayla-lin-portfolio/static/js/main.19d7622d.js",
     "static/media/project-brainworks.png": "/kayla-lin-portfolio/static/media/project-brainworks.e014001c2b6b8b02b858.png",
     "static/media/project-lovebox.png": "/kayla-lin-portfolio/static/media/project-lovebox.df3378a6f1dff21c4529.png",
     "index.html": "/kayla-lin-portfolio/index.html",
-    "main.1c9846ce.js.map": "/kayla-lin-portfolio/static/js/main.1c9846ce.js.map"
+    "main.19d7622d.js.map": "/kayla-lin-portfolio/static/js/main.19d7622d.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c9846ce.js"
+    "static/js/main.19d7622d.js"
   ]
 }
