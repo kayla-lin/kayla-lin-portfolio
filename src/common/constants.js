@@ -10,7 +10,7 @@ export const PROJECTS = [
     imgAlt: 'Lovebox package',
     subHeading:
       'Send virtual packages of notes that the recipients can read once a day or all at once.',
-    deployment: 'https://loveboxapp.com/',
+    deployment: 'https://lovekit.io/',
     tags: ['React', 'Firebase', 'Blender', 'Three.js'],
     route: 'lovebox',
   },
@@ -25,6 +25,7 @@ export const PROJECTS = [
     deployment: 'https://brainworks.scigami.org/',
     tags: ['React', 'Flask', 'MySQL', 'Typescript', 'Redux'],
     route: 'brainworks',
+    isInactive: true,
   },
   // {
   //   type: 'Frontend',

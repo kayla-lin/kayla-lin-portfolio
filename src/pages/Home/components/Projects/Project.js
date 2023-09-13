@@ -26,6 +26,7 @@ const Project = props => {
     img,
     imgAlt,
     image,
+    isInactive,
   } = props.project;
 
   console.log(props.project);
@@ -79,6 +80,7 @@ const Project = props => {
                       px={0}
                       _hover={{ bg: 'transparent', opacity: '80%' }}
                       _active={{ bg: 'transparent' }}
+                      disabled={isInactive}
                     >
                       View
                     </Button>

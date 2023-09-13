@@ -20,6 +20,11 @@ const BRAINWORKS = () => {
     <PageWrapper title="BRAINWORKS">
       <VStack align="flex-start">
         <Heading>What is BRAINWORKS?</Heading>
+
+        <Text as="strong" color="pink.100" fontSize="20px">
+          Updated Note: BRAINWORKS has been shutdown as of Feb 2023
+        </Text>
+
         <Text>
           BRAINWORKS is apart of the{' '}
           <Link

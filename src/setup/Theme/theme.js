@@ -4,6 +4,7 @@ import { mode } from '@chakra-ui/theme-tools';
 const config = {
   initialColorMode: 'dark',
   useSystemColorMode: false,
+  localStoragePrefix: 'kayla-lin-portfolio',
 };
 
 export const theme = extendTheme({
