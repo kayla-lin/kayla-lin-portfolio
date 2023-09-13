@@ -25,7 +25,8 @@ export const PROJECTS = [
     deployment: 'https://brainworks.scigami.org/',
     tags: ['React', 'Flask', 'MySQL', 'Typescript', 'Redux'],
     route: 'brainworks',
-    isInactive: true,
+    isInactive:
+      'BRAINWORKS is no longer available to the public as of Feb 2023',
   },
   // {
   //   type: 'Frontend',

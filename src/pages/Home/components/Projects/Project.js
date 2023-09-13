@@ -10,6 +10,7 @@ import {
   Skeleton,
   Tag,
   Text,
+  Tooltip,
   VStack,
   Wrap,
 } from '@chakra-ui/react';
@@ -73,18 +74,20 @@ const Project = props => {
             <HStack justify="space-between" w="100%" pt={5}>
               {deployment ? (
                 <>
-                  <Link href={deployment} isExternal>
-                    <Button
-                      variant="ghost"
-                      rightIcon={<ExternalLinkIcon />}
-                      px={0}
-                      _hover={{ bg: 'transparent', opacity: '80%' }}
-                      _active={{ bg: 'transparent' }}
-                      disabled={isInactive}
-                    >
-                      View
-                    </Button>
-                  </Link>
+                  <Tooltip isDisabled={!isInactive} label={isInactive}>
+                    <Link href={deployment} isExternal>
+                      <Button
+                        variant="ghost"
+                        rightIcon={<ExternalLinkIcon />}
+                        px={0}
+                        _hover={{ bg: 'transparent', opacity: '80%' }}
+                        _active={{ bg: 'transparent' }}
+                        disabled={isInactive}
+                      >
+                        View
+                      </Button>
+                    </Link>
+                  </Tooltip>
                   <Link as={RouterLink} to={`projects/${route}`}>
                     <Button
                       variant="ghost"
