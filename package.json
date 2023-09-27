@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://kayla-lin.github.io/kayla-lin-portfolio/#",
+  "homepage": "https://kayla.dev/kayla-lin-portfolio/#",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.13",
