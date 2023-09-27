@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/kayla-lin-portfolio/static/js/main.6df0971a.js",
+    "main.js": "/kayla-lin-portfolio/static/js/main.e3c2d862.js",
     "static/media/brainworks-tools-before.png": "/kayla-lin-portfolio/static/media/brainworks-tools-before.b2c1e13a6cd3a743f12f.png",
     "static/media/brainworks-tools-after.png": "/kayla-lin-portfolio/static/media/brainworks-tools-after.9d273f843cb49330c6c1.png",
     "static/media/brainworks-home-before.png": "/kayla-lin-portfolio/static/media/brainworks-home-before.75d47c09c83ee2e9ac6e.png",
@@ -12,9 +12,9 @@
     "static/media/resume.pdf": "/kayla-lin-portfolio/static/media/resume.f30cb97170a1f10c7ddf.pdf",
     "static/media/project-lovebox.png": "/kayla-lin-portfolio/static/media/project-lovebox.df3378a6f1dff21c4529.png",
     "index.html": "/kayla-lin-portfolio/index.html",
-    "main.6df0971a.js.map": "/kayla-lin-portfolio/static/js/main.6df0971a.js.map"
+    "main.e3c2d862.js.map": "/kayla-lin-portfolio/static/js/main.e3c2d862.js.map"
   },
   "entrypoints": [
-    "static/js/main.6df0971a.js"
+    "static/js/main.e3c2d862.js"
   ]
 }
